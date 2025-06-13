@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>WSStomp</Title>
+        <Authors>Adrian Lita</Authors>
+        <Description>STOMP over WebSockets in C#.</Description>
+        <Copyright>AXIPlus</Copyright>
+        <PackageProjectUrl>https://github.com/AXIPlus/WSStomp</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/AXIPlus/WSStomp/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryUrl>https://github.com/AXIPlus/WSStomp</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>stomp websockets async protocol</PackageTags>
+        <Company>AXIPlus</Company>
+        <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.0</FileVersion>
+        <Version>$(VersionPrefix)</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="JetBrains.Annotations" Version="2024.3.0" />
+    </ItemGroup>
+
+</Project>
